@@ -1,8 +1,8 @@
 {
-  "name": "blog-desktop-v2",
+  "name": "blog-fe",
   "version": "3.3.0",
   "private": true,
-  "repository": "git@github.com:Yancey-Blog/blog-desktop-v2.git",
+  "repository": "git@github.com:Yancey-Blog/blog-fe.git",
   "author": "Yancey Leo <yanceyofficial@gmail.com>",
   "license": "MIT",
   "scripts": {

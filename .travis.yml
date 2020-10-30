@@ -22,4 +22,4 @@ install:
 scripts:
 - yarn build
 after_success:
-- ssh yanceyleo@74.120.172.16 -o StrictHostKeyChecking=no '. ./blog-desktop-v2-deploy.sh'
+- ssh yanceyleo@74.120.172.16 -o StrictHostKeyChecking=no '. ./blog-fe-deploy.sh'
