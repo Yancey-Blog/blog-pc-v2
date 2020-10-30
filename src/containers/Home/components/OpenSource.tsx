@@ -8,6 +8,10 @@ import { IOpenSource } from '../types'
 
 const OpenSourceWrapper = styled.section`
   ${flexMixin('space-between')}
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 const OpenSourceItem = styled.div`

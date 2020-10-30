@@ -18,12 +18,22 @@ export const PostCardWrapper = styled.section`
     flex-direction: row-reverse;
     text-align: left;
   }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column !important;
+    margin: 0 1.4rem 1.4rem;
+    height: 100%;
+  }
 `
 
 export const PosterAnchor = styled.a`
   width: 33rem;
   overflow: hidden;
   cursor: pointer;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const Poster = styled.img`
@@ -54,6 +64,11 @@ export const SummaryWrapper = styled.div`
   box-sizing: border-box;
   padding: 1.8rem 2.4rem;
   width: 26rem;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    text-align: left;
+  }
 `
 
 export const ReleasedAt = styled.p`
@@ -89,6 +104,11 @@ export const Summary = styled.p`
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
   overflow: hidden;
+
+  @media only screen and (max-width: 768px) {
+    -webkit-line-clamp: 3;
+    min-height: auto;
+  }
 `
 
 export const ReadMoreSVG = styled.svg`
@@ -99,5 +119,9 @@ export const ReadMoreSVG = styled.svg`
 
   &:hover {
     fill: ${({ theme }) => theme.colors.orange};
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
   }
 `

@@ -29,6 +29,10 @@ const Covers = styled.figure<PosterProps>`
     background-attachment: scroll;
     opacity: 0.5;
   }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 interface Props {

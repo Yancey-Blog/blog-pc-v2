@@ -25,6 +25,10 @@ const ToggleContainer = styled.button`
   cursor: pointer;
   overflow: hidden;
   z-index: 200;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 const SVG = styled.svg<ButtonProps>`

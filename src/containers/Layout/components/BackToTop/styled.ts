@@ -17,4 +17,8 @@ export const Cat = styled.div`
   &.showCat {
     top: -10rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `

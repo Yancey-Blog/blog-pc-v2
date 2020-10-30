@@ -69,6 +69,10 @@ export const SearchBoxWrapper = styled.div`
   .ais-SearchBox-reset {
     top: 0.76rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const Result = styled.div`

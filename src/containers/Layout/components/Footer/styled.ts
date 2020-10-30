@@ -5,6 +5,10 @@ export const FooterWrapper = styled.footer`
   margin: 4.8rem auto 2.4rem;
   width: 60rem;
   font-family: 'Ubuntu', sans-serif;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const CopyRight = styled.p`

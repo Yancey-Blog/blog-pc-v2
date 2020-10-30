@@ -12,7 +12,7 @@ const Slogans = styled.h2`
   ${noUserSelectMixin()}
 
   &::before,
-&::after {
+  &::after {
     position: absolute;
     content: attr(data-slogan);
     top: 0;
@@ -38,6 +38,10 @@ const Slogans = styled.h2`
   &:hover::after {
     text-shadow: ${({ theme }) => `-5px 0 ${theme.colors.sloganBlue}`};
     animation: ${glitchLoop2} 0.8s infinite ease-in-out alternate-reverse;
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
   }
 `
 

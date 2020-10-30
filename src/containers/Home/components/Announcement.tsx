@@ -17,6 +17,10 @@ const AnnouncementWrapper = styled.section`
   border: 1px dashed;
   border-color: ${({ theme }) => theme.border};
   border-radius: 0.8rem;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 const SVG = styled.svg`

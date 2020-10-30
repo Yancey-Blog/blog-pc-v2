@@ -78,6 +78,12 @@ const GlobalStyle = createGlobalStyle`
   .aplayer-list-title, .aplayer-title {
     color:#666 !important;
   }
+
+  .aplayer, .crisp-client {
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
 `
 
 export default GlobalStyle

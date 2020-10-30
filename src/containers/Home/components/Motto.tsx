@@ -12,6 +12,10 @@ const MottoBar = styled.section`
   background: ${({ theme }) => theme.colors.fiveOpcityBlack};
   padding: 1.4rem 1.8rem;
   border-radius: 0.7rem;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 const MottoContent = styled.p`
