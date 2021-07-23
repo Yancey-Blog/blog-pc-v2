@@ -1336,10 +1336,10 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-algoliasearch-helper@^3.4.3:
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.4.4.tgz#f2eb46bc4d2f6fed82c7201b8ac4ce0a1988ae67"
-  integrity sha512-OjyVLjykaYKCMxxRMZNiwLp8CS310E0qAeIY2NaublcmLAh8/SL19+zYHp7XCLtMem2ZXwl3ywMiA32O9jszuw==
+algoliasearch-helper@^3.4.3, algoliasearch-helper@^3.5.3:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.5.4.tgz#21b20ab8a258daa9dde9aef2daa5e8994cd66077"
+  integrity sha512-t+FLhXYnPZiwjYe5ExyN962HQY8mi3KwRju3Lyf6OBgtRdx30d6mqvtClXf5NeBihH45Xzj6t4Y5YyvAI432XA==
   dependencies:
     events "^1.1.1"
 
@@ -6555,13 +6555,13 @@ react-hotjar@^2.2.1:
   resolved "https://registry.npmjs.org/react-hotjar/-/react-hotjar-2.2.1.tgz#5f06d15a146960262dba612657c828c8b58da8a3"
   integrity sha512-rkHdsFDfI7HCKeAwkHPf8Vq7ZbpX0oE4/5GgVvNambWw8z0PSKKxi59qWYX7H+dDYjchiL3z3hrAFQ+PohgQOA==
 
-react-instantsearch-core@^6.11.0:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/react-instantsearch-core/-/react-instantsearch-core-6.11.0.tgz#103fd4dd14c0e057fdde88e32bf419497b1fb55e"
-  integrity sha512-RE5pPuSL5e3+wgMl+QLY+MgyqgNXBrfppqk3podOXTdWpQ5VdaXVrpeWVcmFJlRRKPLJI6RGqCiHVRTaGt1HVw==
+react-instantsearch-core@^6.11.0, react-instantsearch-core@^6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-core/-/react-instantsearch-core-6.12.0.tgz#f4bd044c0b5939d2129b95d3bf298e407a41a2b5"
+  integrity sha512-k7/sQLai5fhhiQxKFt7e3lA13SJpp843raQ6f8EtJL/bdFZPDHnOS3fPrxV/sduBkIrX7Hv+DrEOY1KkJGu2sA==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    algoliasearch-helper "^3.4.3"
+    algoliasearch-helper "^3.5.3"
     prop-types "^15.6.2"
     react-fast-compare "^3.0.0"
 
