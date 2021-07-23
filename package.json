@@ -71,7 +71,7 @@
     "@types/react-instantsearch-dom": "^6.10.0",
     "@types/react-syntax-highlighter": "^13.5.1",
     "@types/styled-components": "^5.1.7",
-    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
     "babel-plugin-styled-components": "^1.12.0",
     "babel-plugin-transform-imports": "^2.0.0",
     "cz-conventional-changelog": "^3.3.0",
